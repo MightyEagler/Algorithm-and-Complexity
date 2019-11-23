@@ -3,6 +3,7 @@
 @author: Hongzhi Fu
 """
 
+# Euclid's algorithm to find the greatest common divisor with the complexity O(logn)
 def gcd(m, n):
     while n != 0:
         r = m
